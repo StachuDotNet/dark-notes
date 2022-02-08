@@ -1,0 +1,1 @@
+plan: turn all off, then turn on one by one until we find the culprit
