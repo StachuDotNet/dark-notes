@@ -6,3 +6,5 @@
 # backend
 - tests
 	- `./scripts/run-fsharp-tests --filter-test-case httpclient
+
+running integration tests

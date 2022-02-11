@@ -1,0 +1,16 @@
+- in vscode, some of the exposed ports don't have an obvious running process description. could we fix that?
+	- 2345, 5433, 8000, 9000, 11000, 1080
+	- also a bit unclear why we need bot h9001 and 9002 (apiserver), as well as 11001 and 11002 (bwdserver)
+	- would be great to provide some quick insight
+- is there a psql client in vs code that would be nice to install by default?
+	- allow very simple access to the databases
+- what lives on various ports?
+	- 2345 - cloud_sql_proxy
+	- 8000 - ocaml backend server
+	- 5433 - postgres db
+	- 9000 - F# api server
+	- 11000
+	- 80 
+- what is a TLSavepoint?
+	- todo: find note from paul on this and put it in docs or code somewhere
+- release a Package in the Package Manager that lets you generate basic HTML to build a front-end. (just provide basic forms)
